@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Internal CSS */
+      nav{
+        display: flex;         
+        justify-content: space-evenly;
+        padding: 10px;         
+        background-color: #333;
+      }
+
+      nav a{
+        color: white;          
+        text-decoration: none; 
+        font-size: 18px;      
+        padding: 10px;        
+      }
+
+      nav a:hover{
+        background-color: #555; 
+        border-radius: 5px;   
+      }
+
+      #bannerhomepage{
+        background-image: url('Images/philippinesbanner.jpg');
+        background-size: cover; 
+        background-position: center;
+        height: 300px; 
+        width: 100%;
+        background-repeat: no-repeat; 
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      #banner h1{
+        font-size: 60px; 
+        margin: 0; 
+      }
+
+      #main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        flex-direction: row;
+        max-width: 1200px; 
+        margin: 0 auto;
+      }
+
+      #main img{
+        width: 100%;
+        max-width: 450px; 
+        height: auto; 
+        object-fit: cover; 
+        border-radius: 10px;
+      }
+
+      #main p{
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 600px;
+        margin-left: 20px;
+      }
+
+      #about{
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+
+      #about h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      #about p{
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.8;
+      }
+
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <nav>
+      <a href="index.html">HomePage</a>
+      <a href="page1.html">Landmarks</a>
+      <a href="page2.html">Cuisines</a>
+      <a href="page3.html">Cultures</a>
+    </nav>
+    <div id="bannerhomepage">
+      <h1>Philippines</h1>
+    </div>
+
+  
+    <div id="main">
+      <img src="Images/philippinesislands.jpg" alt="Philippines Islands">
+      <p>Philippines, island country of Southeast Asia in the western Pacific Ocean. It is an archipelago consisting of more than 7,000 islands and islets lying about 500 miles (800 km) off the coast of Vietnam. Manila is the capital, but nearby Quezon City is the country’s most-populous city. Both are part of the National Capital Region (Metro Manila), located on Luzon, the largest island. The second largest island of the Philippines is Mindanao, in the southeast.</p>
+    </div>
+
+
+    <div id="about">
+      <h1>About the Philippines</h1>
+      <p>The Philippines is known for its breathtaking natural beauty, the country is home to pristine beaches, lush mountains, and active volcanoes. With a rich cultural heritage influenced by various ethnic groups and a history shaped by Spanish and American colonialism, the Philippines boasts a unique blend of traditions, languages, and cuisines. Its warm, welcoming people, diverse wildlife, and vibrant cities, including the capital Manila, make the Philippines a top destination for travelers seeking both adventure and relaxation. Whether exploring historic landmarks, enjoying water sports, or savoring delicious Filipino dishes, the Philippines offers something for everyone.</p>
+    </div>
+  </body>
+</html>

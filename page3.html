@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Internal CSS */
+      body{
+        background-color:white;
+      }
+      
+	  nav{
+        display: flex;         
+        justify-content: space-evenly;
+        padding: 10px;         
+        background-color: #333;
+      }
+      
+      nav a{
+        color: white;          
+        text-decoration: none; 
+        font-size: 18px;      
+        padding: 10px;        
+      }
+
+      nav a:hover{
+        background-color: #555; 
+        border-radius: 5px;   
+      }
+	  
+      .traditions-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+      } 
+
+      .traditions-item{
+        display: flex;
+        align-items: center;  
+        margin-bottom: 20px;
+        width: 80%; 
+      }
+
+      .traditions-item img{
+        width: 100%; 
+        height: 300px; 
+        object-fit: cover; 
+      }
+
+      .traditions-item p{
+        max-width: 800px;  
+        font-size: 16px;
+        text-align: right; 
+      }
+      
+	  #about{
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+
+      #about h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      #about p{
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.8;
+      }
+	  
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+	<nav>
+      <a href="index.html">HomePage</a>
+      <a href="page1.html">Landmarks</a>
+      <a href="page2.html">Cuisines</a>
+	  <a href="page3.html">Cultures</a>
+    </nav>
+    <div id="bannercultures">
+      <h1>Cultures</h1>
+    </div>
+	<br>
+    <div class="traditions-container">
+	  <div class="traditions-item">
+	  <img src="Images/bayanihan.jpg" alt="Bayanihan">
+      <p>Bayanihan is a traditional Filipino value that emphasizes communal unity, cooperation, and helping one another, especially in times of need. The term originated from the Filipino word bayan, meaning "community" or "nation." Traditionally, it referred to the practice of neighbors coming together to assist a family in moving their home, often by physically carrying a house on bamboo poles to a new location. This spirit of selflessness and collective effort transcends physical tasks and is applied in various aspects of life, including times of disaster, in which Filipinos rally together to support each other. At its core, bayanihan embodies solidarity, compassion, and the importance of community in overcoming challenges.</p>
+      </div>
+	  <br>
+	  <div class="traditions-item">
+	  <img src="Images/pamamanhikan.jpg" alt="Pamamanhikan">
+	  <p>Pamamanhikan is a traditional Filipino practice where the groom, along with his family, visits the bride’s family to formally ask for her hand in marriage. This event is often seen as a way to seek the approval of the bride's parents and to establish a relationship between the two families. It is typically marked by a respectful and serious conversation, where the groom expresses his intentions, and both families discuss wedding plans, dowries, and other significant details. Beyond the formalities, pamamanhikan is also a time for both families to bond, share meals, and celebrate the union of the couple. This custom highlights the importance of family and respect in Filipino culture.</p>
+	  </div>
+	  <br>
+	  <div class="traditions-item">
+	  <img src="Images/boodlefight.webp" alt="Boodle Fight">
+	  <p>A boodle fight is a popular Filipino communal feast where food is spread out on a long table, typically without plates or utensils, and people eat together by using their hands. The meal often consists of a variety of traditional Filipino dishes such as rice, grilled meats, fish, vegetables, and fruits, arranged in a colorful and abundant spread. The term "boodle" is believed to have originated from the American military term "boodle," meaning a collection of food, which was later adapted into Filipino culture. *Boodle fights* are often held during celebrations, gatherings, or team-building activities, emphasizing camaraderie and unity. It fosters a sense of community as everyone shares the same food, and eating by hand is seen as a way to create a closer, more personal connection with others.</p>
+	  </div>
+	</div>  
+    
+	<div id="about">
+      <h1>About the Traditions</h1>
+      <p>Philippine traditions are a vibrant tapestry of customs that reflect the country's rich cultural heritage, shaped by a blend of indigenous, Spanish, and other foreign influences. These traditions are deeply rooted in family values, community, and respect for elders, with celebrations often marked by colorful festivals, lively dances, and music that bring people together in joyous unity. Religious practices play a central role in daily life, with faith often expressed through festivals, processions, and devotion to saints, offering a glimpse into the deep spirituality of the Filipino people. Filipino hospitality is renowned, with visitors always welcomed with open arms, often through shared meals and communal activities. Whether through the intricacies of local handcrafts, the graceful movements in traditional dances, or the ceremonial rituals of important life events, Philippine traditions reflect a deep respect for history, culture, and the connections that bind families and communities together. These customs offer a beautiful insight into the Philippines' identity and its warm, welcoming spirit.</p>
+    </div>
+	
+  </body>
+</html>

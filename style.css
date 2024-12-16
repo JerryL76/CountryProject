@@ -1,0 +1,122 @@
+body{
+  font-family:arial;
+}
+a{
+  text-decoration:none;
+}
+
+#click_me{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#click_me:hover{
+  color: red !important;
+}ddd
+
+#bannerhomepage{
+    background-image: url('Images/philippinesbanner.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 300px; 
+    width: 100%;
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#bannerlandmark{
+    background-image: url('Images/philippineslandmark.png');
+    background-size: cover; 
+    background-position: center;
+    height: 300px; 
+    width: 100%;
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#bannercuisines{
+	background-image: url('Images/philippinescuisines.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    width: 100%;
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#bannercultures{
+	background-image: url('Images/philippinescultures.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    width: 100%;
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+	
+#main{
+	text-align: center;
+}
+
+.landmarks-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 20px; 
+}
+
+
+.landmark-item{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.landmark-item img{
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+.landmark-item p{
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+#bannerlandmark h1{
+    text-align: center;
+    margin: 75px 0;
+    font-size: 70px;
+}
+
+#bannerhomepage h1{
+    text-align: center;
+    margin: 75px 0;
+    font-size: 70px;
+}
+
+#bannercuisines h1{
+	text-align: center;
+	margin: 75px 0;
+	font-size: 70px;
+}
+
+#bannercultures h1{
+	text-align: center;
+	margin: 75px 0;
+	font-size: 70px;
+}
+

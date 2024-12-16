@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Internal CSS */
+      body{
+        background-color: white;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        background-color: #333;
+        flex-wrap: wrap;
+      }
+
+      nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+      }
+
+      nav a:hover{
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      .cuisines-container{
+        padding: 20px;
+      }
+
+      .cuisine-item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+
+      .cuisine-item img{
+        width: 45%;
+        height: auto;
+		object-fit: cover;
+        margin-right: 20px;
+      }
+	  
+	  .cuisine-item a{
+        width: 45%;
+        height: auto;
+		object-fit: cover;
+        margin-right: 20px;
+      }
+
+      .cuisine-item p{
+        flex: 1;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      
+	  .cuisine-item{
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+	  
+	  #about{
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+
+      #about h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      #about p{
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.8;
+      }
+	  
+	  .cuisine-items{
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+	  
+	  .cuisine-items{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+		flex-direction: row-reverse;
+      }
+
+      .cuisine-items img{
+        width: 45%;
+        height: auto;
+		object-fit: cover;
+        margin-right: 20px;
+      }
+	  
+	  .cuisine-items a{
+        width: 45%;
+        height: auto;
+		object-fit: cover;
+        margin-right: 20px;
+      }
+
+      .cuisine-items p{
+        flex: 1;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+	  
+	  
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <nav>
+      <a href="index.html">HomePage</a>
+      <a href="page1.html">Landmarks</a>
+      <a href="page2.html">Cuisines</a>
+      <a href="page3.html">Cultures</a>
+    </nav>
+
+    <div id="bannercuisines">
+      <h1>Cuisines</h1>
+    </div>
+
+    <div class="cuisines-container">
+      <div class="cuisine-item">
+	    <a href="https://www.youtube.com/watch?app=desktop&v=aFzYOLfmYgM&t=0s">
+            <img src="Images/chickenadobo.jpg" alt="Chicken Adobo">
+        <p>Chicken Adobo is one of the most iconic and beloved dishes in the Philippines, known for its rich, savory, and slightly tangy flavor profile. It is typically made by marinating chicken in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns, then simmering it until tender. The marinade creates a deliciously complex sauce that balances the salty, sour, and umami tastes, making it perfect to pair with steamed rice. Though the dish's origins are debated, with some tracing it back to the indigenous cooking practices and others to Spanish influence, Chicken Adobo has become a perfect Filipino comfort food. Each region and household may have its own variation, with some adding coconut milk, potatoes, or potatoes, but the basic ingredients remain the same, offering a satisfying, hearty meal that is as diverse as the country itself.</p>
+      </div>
+      <br>
+      <div class="cuisine-item">
+	    <a href="https://www.youtube.com/watch?v=iQhYC-H_gSo">
+            <img src="Images/lumpiangshanghai.webp" alt="Lumpiang Shanghai">
+        <p>Lumpiang Shanghai is a popular Filipino dish that consists of crispy, deep-fried spring rolls filled with a savory mixture of ground pork, shrimp, and vegetables. Often served as an appetizer or snack, it is a staple at family gatherings, fiestas, and special occasions in the Philippines. The filling is seasoned with garlic, onions, soy sauce, and pepper, giving it a flavorful and aromatic taste. The spring roll wrapper is tightly rolled and fried to golden perfection, creating a crunchy exterior that contrasts with the tender filling inside. Lumpiang Shanghai is commonly enjoyed with a dipping sauce, such as sweet and sour sauce or vinegar with chili, adding an extra layer of flavor to each bite. This dish is beloved for its satisfying texture and delicious taste, making it a perfect part of Filipino cuisine.</p>
+      </div>
+      <br>
+      <div class="cuisine-items">
+	    <a href="https://www.youtube.com/watch?v=njJN0-2Pl_w">
+            <img src="Images/pancit.webp" alt="Pancit">
+        <p>Pancit is a beloved and iconic dish in the Philippines, known for its diverse variations and cultural significance. It refers to a variety of noodle dishes often served during celebrations, gatherings, and special occasions like birthdays, holidays, and fiestas. The word "pancit" itself comes from the Chinese word "pian i sit," meaning "quick meal," reflecting its origins as a Chinese-inspired dish adapted by Filipinos over time. Different regions of the Philippines have their own unique versions, such as pancit canton (stir-fried noodles with vegetables, meat, and seafood), pancit Malabon (thick rice noodles with a rich seafood sauce), and pancit bihon (thin rice noodles with a savory broth). The dish is not only a symbol of Filipino culinary creativity but also represents the spirit of sharing and community, as it is often served in large portions for family and friends to enjoy together.</p>
+      </div>
+    </div>
+    <br>
+	<div id="about">
+      <h1>About the Cuisines</h1>
+      <p>Philippine cuisine is a flavorful journey that blends indigenous, Spanish, Chinese, and American influences, creating a vibrant culinary tradition that captivates both locals and visitors. Rich in bold flavors, it features a harmonious mix of savory, sour, and sweet tastes, with dishes often highlighting fresh ingredients like pork, chicken, seafood, and a variety of vegetables. The iconic balance of sour and savory in stews, or the tender and crispy textures in roasted meats, gives each dish a unique depth. Street food, a hallmark of Filipino culture, offers delightful snacks that showcase local spices and cooking methods, while festive dishes reflect the warmth and hospitality of Filipino gatherings. From hearty comfort foods to delicate desserts, the cuisine tells stories of the country's diverse history and the creativity of its people, making it a must-experience for anyone looking to understand the heart of the Philippines.</p>
+    </div>
+	
+  </body>
+</html>	
